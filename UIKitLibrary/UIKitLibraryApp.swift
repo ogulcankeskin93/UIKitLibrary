@@ -11,7 +11,7 @@ import SwiftUI
 struct UIKitLibraryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EditableImageViewWrapper()
         }
     }
 }

@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A50E030627B1214000F4C525 /* UIKitLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E030527B1214000F4C525 /* UIKitLibraryApp.swift */; };
-		A50E030827B1214000F4C525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E030727B1214000F4C525 /* ContentView.swift */; };
+		A50E030827B1214000F4C525 /* EditableImageViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E030727B1214000F4C525 /* EditableImageViewWrapper.swift */; };
 		A50E030A27B1214300F4C525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50E030927B1214300F4C525 /* Assets.xcassets */; };
 		A50E030D27B1214300F4C525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50E030C27B1214300F4C525 /* Preview Assets.xcassets */; };
+		A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */; };
+		A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A50E030227B1214000F4C525 /* UIKitLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50E030527B1214000F4C525 /* UIKitLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitLibraryApp.swift; sourceTree = "<group>"; };
-		A50E030727B1214000F4C525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A50E030727B1214000F4C525 /* EditableImageViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableImageViewWrapper.swift; sourceTree = "<group>"; };
 		A50E030927B1214300F4C525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A50E030C27B1214300F4C525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		A50E030427B1214000F4C525 /* UIKitLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				A50E031327B1218500F4C525 /* Helper */,
 				A50E030527B1214000F4C525 /* UIKitLibraryApp.swift */,
-				A50E030727B1214000F4C525 /* ContentView.swift */,
+				A50E030727B1214000F4C525 /* EditableImageViewWrapper.swift */,
+				A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */,
 				A50E030927B1214300F4C525 /* Assets.xcassets */,
 				A50E030B27B1214300F4C525 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				A50E030C27B1214300F4C525 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A50E031327B1218500F4C525 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50E030827B1214000F4C525 /* ContentView.swift in Sources */,
+				A50E030827B1214000F4C525 /* EditableImageViewWrapper.swift in Sources */,
 				A50E030627B1214000F4C525 /* UIKitLibraryApp.swift in Sources */,
+				A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */,
+				A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
