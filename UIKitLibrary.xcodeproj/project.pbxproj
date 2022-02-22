@@ -13,6 +13,7 @@
 		A50E030D27B1214300F4C525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50E030C27B1214300F4C525 /* Preview Assets.xcassets */; };
 		A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */; };
 		A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */; };
+		A5C39B4427C4ED9600DFFCA3 /* MasExampleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A50E030C27B1214300F4C525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerWrapper.swift; sourceTree = "<group>"; };
+		A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasExampleWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */,
+				A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				A50E030627B1214000F4C525 /* UIKitLibraryApp.swift in Sources */,
 				A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */,
 				A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */,
+				A5C39B4427C4ED9600DFFCA3 /* MasExampleWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
