@@ -13,6 +13,8 @@
 		A50E030D27B1214300F4C525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50E030C27B1214300F4C525 /* Preview Assets.xcassets */; };
 		A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */; };
 		A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */; };
+		A580770B27D0DAC20000933C /* WebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580770A27D0DAC20000933C /* WebViewWrapper.swift */; };
+		A580770E27D0E0BA0000933C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A580770D27D0E0BA0000933C /* index.html */; };
 		A5C39B4427C4ED9600DFFCA3 /* MasExampleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		A50E030C27B1214300F4C525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A50E031427B1219A00F4C525 /* UIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		A50E031627B29E9C00F4C525 /* FileManagerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerWrapper.swift; sourceTree = "<group>"; };
+		A580770A27D0DAC20000933C /* WebViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWrapper.swift; sourceTree = "<group>"; };
+		A580770D27D0E0BA0000933C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasExampleWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +61,8 @@
 		A50E030427B1214000F4C525 /* UIKitLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				A580770D27D0E0BA0000933C /* index.html */,
+				A580770627D0DA8D0000933C /* WKWebView */,
 				A50E031327B1218500F4C525 /* Helper */,
 				A50E030527B1214000F4C525 /* UIKitLibraryApp.swift */,
 				A50E030727B1214000F4C525 /* EditableImageViewWrapper.swift */,
@@ -82,6 +88,14 @@
 				A5C39B4327C4ED9600DFFCA3 /* MasExampleWrapper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		A580770627D0DA8D0000933C /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A580770A27D0DAC20000933C /* WebViewWrapper.swift */,
+			);
+			path = WKWebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A580770E27D0E0BA0000933C /* index.html in Resources */,
 				A50E030D27B1214300F4C525 /* Preview Assets.xcassets in Resources */,
 				A50E030A27B1214300F4C525 /* Assets.xcassets in Resources */,
 			);
@@ -159,6 +174,7 @@
 				A50E031527B1219A00F4C525 /* UIViewControllerRepresentable.swift in Sources */,
 				A50E031727B29E9D00F4C525 /* FileManagerWrapper.swift in Sources */,
 				A5C39B4427C4ED9600DFFCA3 /* MasExampleWrapper.swift in Sources */,
+				A580770B27D0DAC20000933C /* WebViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
